@@ -1,0 +1,5 @@
+frase = str(input('Qual e seu nome completo? ')).strip()
+print('Seu nome com todas as letras maiusculas: {} '.format(frase.upper()))
+print('Seu nome com todas as letras minusculas: {} '.format(frase.lower()))
+print('Ao todo seu nome completo tem exatas {} letras'.format(len(frase)- frase.count(' ')))
+print('A quantidade de letras que tem no seu primeiro nome e {} Letras'.format(frase.find(' ')))
